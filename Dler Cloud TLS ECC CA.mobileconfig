@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>Dler Cloud.crt</string>
+			<key>PayloadContent</key>
+			<data>
+			LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJHVENCd0FJ
+			SkFLNHhnWUs0V0lJR01Bb0dDQ3FHU000OUJBTUNNQlV4RXpBUkJn
+			TlZCQU1NQ2tSc1pYSWcKUTJ4dmRXUXdIaGNOTWpFd01URTBNRGsw
+			TnpNeldoY05NekV3TVRFeU1EazBOek16V2pBVk1STXdFUVlEVlFR
+			RApEQXBFYkdWeUlFTnNiM1ZrTUZrd0V3WUhLb1pJemowQ0FRWUlL
+			b1pJemowREFRY0RRZ0FFYjlyS0FFa2hzYitHCnNVbis4ZEJNb3pp
+			Z1JWZHdzTkYyMm1wZDdOWXJjaWVWK3BZalo5MnZDSWdaUVkrdzJR
+			K1l4V2xmYks3cjFadE8KaGIrNmFkYXpiakFLQmdncWhrak9QUVFE
+			QWdOSUFEQkZBaUFEeHlYd2dUN245RTFZZmp6Rkw0QjFXRlM3Nnc0
+			awpJRDVhakFxdFVpOE1HUUloQUlFbU9VVTBMcVdqblpDSEpQcHRW
+			NUE1TGxXcGMyLy9LNE9ZejBNL0c4UEYKLS0tLS1FTkQgQ0VSVElG
+			SUNBVEUtLS0tLQo=
+			</data>
+			<key>PayloadDescription</key>
+			<string>添加 CA 根证书</string>
+			<key>PayloadDisplayName</key>
+			<string>Dler Cloud</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.root.B6436568-1B49-4225-9DE2-B4FCCD46FFC3</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>B6436568-1B49-4225-9DE2-B4FCCD46FFC3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Dler Cloud</string>
+	<key>PayloadIdentifier</key>
+	<string>Dler-TLS-ECC-CA</string>
+	<key>PayloadOrganization</key>
+	<string>Dler Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>B036C4AD-CF3A-4C41-A8D2-B9F34781C71C</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

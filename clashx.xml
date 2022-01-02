@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>ClashX Pro</title>
+    <link>/v0.1/public/sparkle/apps/1cd052f7-e118-4d13-87fb-35176f9702c1</link>
+    <item>
+      <title>Version 1.72.0.1 (1.72.0.1)</title>
+      <description><div style='font-size: 110%; font-family: Helvetica, Arial, sans-serif;'><ul> <li>更新 Clash Core 到 1.8.0 查看 <a href="https://github.com/Dreamacro/clash/releases/tag/v1.8.0">Core Release Note</a> 获取详细信息 <ul> <li>support trojan over websocket</li> <li>all proxies support dial different NIC</li> <li>...</li> </ul></li> <li>无通知权限时不显示代理被其他软件覆写时的弹窗</li> </ul> </div></description>
+      <pubDate>Sat, 13 Nov 2021 13:08:13 GMT</pubDate>
+      <enclosure sparkle:version="1.72.0.1" sparkle:shortVersionString="1.72.0.1" url="https://appcenter-filemanagement-distrib5ede6f06e.azureedge.net/a59d3822-d12f-417d-8aae-664b2cac83cd/ClashX.dmg?sv=2019-02-02&sr=c&sig=bOkdDYkFtoIeeHZ%2FSEDCBO5RuxGsEPN8AVTfZZTL9Wg%3D&se=2021-11-15T07%3A09%3A15Z&sp=r" length="23269281" type="application/octet-stream"/>
+      <sparkle:minimumSystemVersion/>
+    </item>
+    <item>
+      <title>Version 1.71.0.4 (1.71.0.4)</title>
+      <description><div style='font-size: 110%; font-family: Helvetica, Arial, sans-serif;'><ul> <li>设置代理时增加不包括简单主机名选项。需要更新ProxyHelper</li> <li>支持自定义托管文件更新间隔</li> <li>修复ClashX 未启动时 url scheme 无效的bug</li> <li>修复ClashX Tun有时无法再重启后自动启动</li> <li>更新Clash Core 到 1.7.1</li> <li>配置文件错误提示将使用 alert 提示</li> <li>修复某些情况下开关增强模式崩溃的问题</li> </ul> </div></description>
+      <pubDate>Wed, 06 Oct 2021 02:56:05 GMT</pubDate>
+      <enclosure sparkle:version="1.71.0.4" sparkle:shortVersionString="1.71.0.4" url="https://appcenter-filemanagement-distrib3ede6f06e.azureedge.net/36e7df60-4ac4-40ff-9783-ca0a3cae5225/ClashX.dmg?sv=2019-02-02&sr=c&sig=cD6bd4TjXa2S6kia1%2FXhuaxe7hLPlBdfJOJfeQkkcx8%3D&se=2021-11-15T13%3A15%3A03Z&sp=r" length="23236649" type="application/octet-stream"/>
+      <sparkle:minimumSystemVersion/>
+    </item>
+    <item>
+      <title>Version 1.71.0.2 (1.71.0.2)</title>
+      <description><div style='font-size: 110%; font-family: Helvetica, Arial, sans-serif;'><ul> <li>设置代理时增加不包括简单主机名选项。需要更新ProxyHelper</li> <li>支持自定义托管文件更新间隔</li> <li>修复ClashX 未启动时 url scheme 无效的bug</li> <li>修复ClashX Tun有时无法再重启后自动启动</li> <li>更新Clash Core 到 1.7.1</li> <li>修复Tencent iOA兼容性，需要在 Auto Interface detection 中选择Core选项, 正确配置dns配置，并且在开启ioa后启动增强模式</li> <li>配置文件错误提示将使用 alert 提示</li> </ul> </div></description>
+      <pubDate>Mon, 04 Oct 2021 09:10:56 GMT</pubDate>
+      <enclosure sparkle:version="1.71.0.2" sparkle:shortVersionString="1.71.0.2" url="https://appcenter-filemanagement-distrib1ede6f06e.azureedge.net/56c86fec-a6d2-4c14-bff3-97f17bffa660/ClashX.dmg?sv=2019-02-02&sr=c&sig=Btz4zv%2B1v%2F50P%2BQb3jHXgayo5t%2BHPpObNCmUsvndll0%3D&se=2021-11-15T13%3A15%3A03Z&sp=r" length="23149434" type="application/octet-stream"/>
+      <sparkle:minimumSystemVersion/>
+    </item>
+    <item>
+      <title>Version 1.70.0.1 (1.70.0.1)</title>
+      <description><div style='font-size: 110%; font-family: Helvetica, Arial, sans-serif;'><ul> <li>Update Clash core to 1.7.0. See <a href="https://github.com/Dreamacro/clash/releases/tag/v1.7.0">Clash Core Release Note</a> and [Clash Premium Core Release Note].(https://github.com/Dreamacro/clash/releases/tag/premium) for details.</li> <li>Try fix tun is not auto turn on after reboot.</li> <li>only health check auto group used provider after network work changed.</li> <li>Bugfixs</li> </ul> </div></description>
+      <pubDate>Sun, 12 Sep 2021 13:24:57 GMT</pubDate>
+      <enclosure sparkle:version="1.70.0.1" sparkle:shortVersionString="1.70.0.1" url="https://appcenter-filemanagement-distrib5ede6f06e.azureedge.net/6f336958-b137-4cbf-a60b-9e2c9e87fc7b/ClashX.dmg?sv=2019-02-02&sr=c&sig=0Y3BcbGVTakx%2FI3x5robTOBRx9j0ThgZ191ebGe6xJY%3D&se=2021-11-15T13%3A15%3A03Z&sp=r" length="23173523" type="application/octet-stream"/>
+      <sparkle:minimumSystemVersion/>
+    </item>
+    <item>
+      <title>Version 1.65.1.1 (1.65.1.1)</title>
+      <description><div style='font-size: 110%; font-family: Helvetica, Arial, sans-serif;'><ul> <li>Update Clash Core</li> <li>Fix health check bug</li> </ul> </div></description>
+      <pubDate>Sun, 08 Aug 2021 14:21:39 GMT</pubDate>
+      <enclosure sparkle:version="1.65.1.1" sparkle:shortVersionString="1.65.1.1" url="null" length="22473870" type="application/octet-stream"/>
+      <sparkle:minimumSystemVersion/>
+    </item>
+  </channel>
+</rss>
