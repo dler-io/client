@@ -1,0 +1,458 @@
+name: Getting WARP+ Traffic
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0,6,12,18 * * *'
+
+jobs:
+  auto_getting_traffic_1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_4:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_5:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_6:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_7:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_8:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_9:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_10:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_11:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_12:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_13:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_14:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_15:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_16:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_17:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_18:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_19:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_20:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_21:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_22:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_23:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_24:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_25:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_26:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_27:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_28:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_29:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
+  auto_getting_traffic_30:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checking'
+        uses: actions/checkout@v2
+
+      - name: 'Setting Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: 'Getting WARP+ Traffic'
+        env:
+          DEVICEID: ${{ secrets.WARP_ID }}
+        run: python warp.py
