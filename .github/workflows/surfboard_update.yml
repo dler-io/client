@@ -1,0 +1,63 @@
+name: Monitor and Update Surfboard APK
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update-surfboard:
+    name: Check and Update Surfboard APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Fetch Surfboard Latest Release Info
+        id: fetch_release
+        run: |
+          latest_release=$(curl -s https://api.github.com/repos/getsurfboard/surfboard/releases/latest | jq -r '.tag_name')
+          echo "Latest release: $latest_release"
+          echo "::set-output name=release::$latest_release"
+      - name: Download APK File
+        run: |
+          apk_url=$(curl -s https://api.github.com/repos/getsurfboard/surfboard/releases/latest | jq -r '.assets[] | select(.name | test("mobile-universal-release.apk")).browser_download_url')
+          echo "APK URL: $apk_url"
+          curl -L "$apk_url" -o surfboard-android.apk
+        env:
+          RELEASE_VERSION: ${{ steps.fetch_release.outputs.release }}
+
+      - name: Upload APK to dler-io/client Releases
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { createRelease, uploadReleaseAsset } = require("@actions/github");
+            const fs = require("fs");
+
+            const releaseTag = `surfboard-${process.env.RELEASE_VERSION}`;
+            const releaseTitle = `Surfboard Android - ${process.env.RELEASE_VERSION}`;
+
+            // Create a new release
+            const release = await createRelease({
+              owner: "dler-io",
+              repo: "client",
+              tag_name: releaseTag,
+              name: releaseTitle,
+              body: "Automated upload of Surfboard Android APK",
+              draft: false,
+              prerelease: false,
+            });
+
+            // Upload the renamed APK
+            const assetPath = "./surfboard-android.apk";
+            const assetName = "surfboard-android.apk";
+            const asset = await uploadReleaseAsset({
+              owner: "dler-io",
+              repo: "client",
+              release_id: release.data.id,
+              file_path: assetPath,
+              name: assetName,
+            });
+
+            console.log("APK uploaded:", asset.data.browser_download_url);
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
